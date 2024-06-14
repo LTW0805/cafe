@@ -71,7 +71,7 @@ const ReservationPage = () => {
         </Form.Item>
         <Form.Item
           name="email"
-          label="電郵"
+          label="E-mail"
           rules={[{ required: true, message: '請輸入您的Email' }]}
         >
           <Input placeholder="請輸入您的Email" />
